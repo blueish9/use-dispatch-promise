@@ -1,6 +1,6 @@
 {
   "name": "use-dispatch-promise",
-  "version": "1.8.0",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blueish9/use-dispatch-promise.git"
@@ -20,11 +20,9 @@
   "scripts": {
     "babel-node": "babel-node --presets=latest",
     "start": "nodemon --exec npx babel-node -- ./index.js",
-    "test": "jest",
     "build": "tsc"
   },
-  "main": "dist/index.js",
-  "typings": "index.d.ts",
+  "main": "lib/index.js",
   "peerDependencies": {
     "react": "^17.0.1",
     "react-redux": "^7.2.2",
