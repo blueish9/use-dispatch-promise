@@ -3,11 +3,11 @@ with **use-dispatch-promise**, you can dispatch an action and get a promise as r
 ---
 
 ### 1. Install
-```yarn add redux-dispatcher```
+```yarn add use-dispatch-promise```
 
 or
 
-```npm install redux-dispatcher --save```
+```npm install use-dispatch-promise --save```
 
 ### 2. Usage
 ```js
